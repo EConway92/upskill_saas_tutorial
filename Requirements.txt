@@ -13,3 +13,9 @@ should vaildate the user fields. Rails app will note whether paln 1 or plan 2.
 * Once vaildated, Rails should send user info (email, plan id) and card token to
 Stripe server and Stripe will create a subscriptiom and send back customer token.
 Rails should save customer token and user information to our database.
+
+
+fixing_bugs
+* Replacing password check with comments on basic user page
+* Fixing flash alert css for creating account bugs
+* Checking db to make sure comments are still stored when creating a basic account.
